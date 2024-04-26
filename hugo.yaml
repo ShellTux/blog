@@ -1,4 +1,4 @@
-baseURL:
+baseURL: https://shelltux.github.io/blog/
 languageCode: pt-PT
 title: Luís Góis Blog
 paginate: 5
