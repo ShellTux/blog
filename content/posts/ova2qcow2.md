@@ -1,7 +1,6 @@
 ---
 title: "Ova2qcow2"
 date: 2024-02-22T20:30:33Z
-draft: true
 description: Converting a VirtualBox VM image (ova) to QEMU VM image (qcow2)
 categories:
   - Virtualizing
