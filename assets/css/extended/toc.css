@@ -1,0 +1,44 @@
+.toc {
+    padding: 14px;
+    border: solid 1px lightgray;
+    font-size: 16px;
+}
+
+@media (min-width: 1280px) {
+    .toc {
+        position: sticky;
+        float: left;
+        --toc-left: calc(100vw / 50);
+        left: var(--toc-left); /* _minimum_ distance from left screen border */
+        top: 100px;
+        margin-left: -1000px; /* overruled by left */
+
+        width: calc((100vw - var(--main-width) - 2 * var(--gap)) / 2 - 2 * var(--toc-left));
+        padding: 14px;
+        border: solid 1px lightgray;
+        font-size: 16px;
+    }
+  
+    .toc .inner {
+        padding: 0;
+    }
+  
+    .toc details summary {
+        margin-inline-start: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+tr {
+    vertical-align: baseline;
+}
+
+
+summary {
+    cursor: pointer !important;
+}
+
+.clearright {
+    clear: right;
+}
