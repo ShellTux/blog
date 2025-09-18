@@ -1,7 +1,7 @@
 ---
 title: "Linux Debug"
 date: 2025-08-30T20:35:21+01:00
-draft: true
+draft: false
 description: Linux kernel debugging
 tags:
   - Linux
