@@ -314,7 +314,7 @@ $ /tmp/shebang.sh
 
 Notice that foo bar baz is passed as a single argument.
 
-![linux-debug-tools](linux-debug/linux-debug-tools.gif)
+![linux-debug-tools](/linux-debug/linux-debug-tools.gif)
 
 ### Debugging the kernel
 
@@ -345,7 +345,7 @@ On 2 terminal panes:
 (gdb) target remote :1234
 ```
 
-![linux-gdb](linux-debug/linux-debug-gdb.gif)
+![linux-gdb](/linux-debug/linux-debug-gdb.gif)
 
 Take your time to understand why everything after the interpreter is considered a single argument.
 
@@ -453,4 +453,4 @@ git apply < ../binfmt_script.patch
 make -j4 # Recompile
 ```
 
-![post-patch](linux-debug/linux-post-patch.gif)
+![post-patch](/linux-debug/linux-post-patch.gif)
