@@ -1,5 +1,5 @@
 ---
-title: "Linux Debug"
+title: Linux Hacking
 date: 2025-08-30T20:35:21+01:00
 draft: false
 description: Linux kernel debugging
@@ -10,14 +10,14 @@ author: "ShellTux"
 type: "post"
 layout: "post"
 cover:
-  hidden: false # hide everywhere but not in structured data
+  hidden: true # hide everywhere but not in structured data
   image: "covers/linux-debug.png"
   alt: 
   caption: 
   relative: true
 ---
 
-Hacking linux kernel
+Hacking linux kernel to change shebang implementation
 
 <!--more-->
 
