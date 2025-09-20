@@ -1,5 +1,5 @@
 ---
-title: "Linux Debug"
+title: Linux Hacking
 date: 2025-08-30T20:35:21+01:00
 draft: false
 description: Linux kernel debugging
@@ -10,14 +10,14 @@ author: "ShellTux"
 type: "post"
 layout: "post"
 cover:
-  hidden: false # hide everywhere but not in structured data
+  hidden: true # hide everywhere but not in structured data
   image: "covers/linux-debug.png"
   alt: 
   caption: 
   relative: true
 ---
 
-Hacking linux kernel
+Hacking linux kernel to change shebang implementation
 
 <!--more-->
 
@@ -314,7 +314,7 @@ $ /tmp/shebang.sh
 
 Notice that foo bar baz is passed as a single argument.
 
-![linux-debug-tools](/linux-debug/linux-debug-tools.gif)
+![linux-debug-tools](tools.gif)
 
 ### Debugging the kernel
 
@@ -345,7 +345,7 @@ On 2 terminal panes:
 (gdb) target remote :1234
 ```
 
-![linux-gdb](/linux-debug/linux-debug-gdb.gif)
+![linux-gdb](gdb.gif)
 
 Take your time to understand why everything after the interpreter is considered a single argument.
 
@@ -453,4 +453,4 @@ git apply < ../binfmt_script.patch
 make -j4 # Recompile
 ```
 
-![post-patch](/linux-debug/linux-post-patch.gif)
+![post-patch](post-patch.gif)
